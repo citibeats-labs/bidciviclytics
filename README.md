@@ -56,12 +56,12 @@ Categories:
 - ```ID 3 - Financial security. (homes)```: tracking the impact of the crisis on the domestic economy. Includes testimonials from employees, freelancers, and caretakers.
 - ```ID 4 - Financial security. (business)```: perception of the impact of the crisis on the markets, capturing macroeconomic trends and business concerns.
 - ```ID 5 - Healthcare security```: perception of the strength of the healthcare system and its ability to cope with the pandemic (including personnel, infrastructure, and authorities).
-- ```ID 6 - Prevention measures```: the cultural dimension of the response to coronavirus, including hygiene practices, nursing, and social distancing.
-- ```ID 7 - Environmental impact```: impact of the economic downturn on the environment.
+- ```ID 6 - Cultural impact```: the cultural dimension of the response to coronavirus, including hygiene practices, nursing, and social distancing.
+- ```ID 7 - Remote work```: perceptions about remote work and the existing tools to facilitate it.
 - ```ID 8 - Education```: impact of the crisis on the education system and learning alternatives during the lockdown, from kindergarten to college.
 - ```ID 9 - Mental health```: the reflection about the effects of the crisis and the lockdown on mental health.
 - ```ID 10 - Vulnerable people```: visibility of collectives at risk from the standpoint of healthcare (elderly people and people with respiratory problems) and socioeconomic level (migrants, homeless people, etc.)
-- ```ID 11 - Remote work```: perceptions about remote work and the existing tools to facilitate it.
+- ```ID 11 - Environment```: impact of the economic downturn on the environment.
 - ```ID 12 - Citizens' initiatives```: reflects the strengthening of the social fabric during a crisis. Includes citizen initiatives to flatten the curve of the pandemic, sensitize and reduce the effects of the lockdown.
 - ```ID 13 - Fake news```: the spread of fake information, whether related to healthcare or politics and any information aimed at manipulating the public opinion to induce panic, chaos or discrimination against minorities.
 
