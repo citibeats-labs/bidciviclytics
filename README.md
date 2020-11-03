@@ -51,19 +51,20 @@ CSV columns:
 NOTE: each row in the CSV corresponds to one day of data for a specific country.
 
 Categories:
-- ```ID 1 - Crisis actions```: conversation regarding the public response at containing and mitigating the health crisis. It reflects the responsibility of the government to implement the state of emergency, the quarantine and impact policies.
-- ```ID 2 - Food safety```: perception regarding food shortages and supply chains.
-- ```ID 3 - Financial security. (homes)```: tracking the impact of the crisis on the domestic economy. Includes testimonials from employees, freelancers, and caretakers.
-- ```ID 4 - Financial security. (business)```: perception of the impact of the crisis on the markets, capturing macroeconomic trends and business concerns.
-- ```ID 5 - Healthcare security```: perception of the strength of the healthcare system and its ability to cope with the pandemic (including personnel, infrastructure, and authorities).
-- ```ID 6 - Cultural impact```: the cultural dimension of the response to coronavirus, including hygiene practices, nursing, and social distancing.
-- ```ID 7 - Remote work```: perceptions about remote work and the existing tools to facilitate it.
-- ```ID 8 - Education```: impact of the crisis on the education system and learning alternatives during the lockdown, from kindergarten to college.
-- ```ID 9 - Mental health```: the reflection about the effects of the crisis and the lockdown on mental health.
-- ```ID 10 - Vulnerable people```: visibility of collectives at risk from the standpoint of healthcare (elderly people and people with respiratory problems) and socioeconomic level (migrants, homeless people, etc.)
-- ```ID 11 - Environment```: impact of the economic downturn on the environment.
-- ```ID 12 - Citizens' initiatives```: reflects the strengthening of the social fabric during a crisis. Includes citizen initiatives to flatten the curve of the pandemic, sensitize and reduce the effects of the lockdown.
-- ```ID 13 - Fake news```: the spread of fake information, whether related to healthcare or politics and any information aimed at manipulating the public opinion to induce panic, chaos or discrimination against minorities.
+- ```ID 01 Governance```: Citizen reactions, doubts and criticisms of the measures to contain the pandemic and the reactivation of the economy. It reflects the responsibility of institutions to implement them and anticipate exit opportunities from the crisis.
+- ```ID 02 Food Safety```: Perceptions regarding the risk of shortages of food and basic supplies (water, energy), as well as the risk of famine as a result of the loss of income among the most vulnerable.
+- ```ID 03 Household economies```: Monitoring the impact of the crisis on the domestic economy, reflecting the risk of poverty for those most affected. It includes testimonials from employees, unemployed, self-employed and citizens. It also shows the perception of the gender gap in the workplace.
+- ```ID 04 Markets and SMEs```: Requests for economic and fiscal policy based on the perception of the impact of the crisis on the markets, reactivation of SMEs and larger companies.
+- ```ID 05 Health system```: Perception of the capacity of the health system (including personnel, health infrastructure and authorities), to face the pandemic. Includes comments on the lack of medical supplies and access to treatments and vaccines.
+- ```ID 06 Citizen security and risk```: Effectiveness of protocols by spaces, companies and groups to avoid contagion. Citizen security in urban displacements in the "new normal".
+- ```ID 07 Consumption options```: Consumption habits, limits and changes: non-basic goods, mobility, tourism and leisure in the new normal.
+- ```ID 08 Employment and inequality```: Perceptions about the future of work: digitization of companies, consolidation of teleworking and barriers to it. In addition, it measures labor problems such as unemployment, irregularity, precariousness and gender inequality at work and new opportunities.
+- ```ID 09 Access to education```: Impact of the crisis on education, from childhood to university, as well as the loss of educational level due to the digital divide and isolation, especially among rural populations and women.
+- ```ID 10 Mental health```: Cases and concerns about changes in mental health due to the crisis, uncertainty and future prospects. Attention to differences in impact by gender.
+- ```ID 11 Vulnerable groups```: Groups or individuals in vulnerable situations; obstacles to their economic and social reintegration: women, immigrants, groups of indigenous peoples, Afro-descendants.
+- ```ID 12 Climate change impact```: Impact of the economic decline and displacement due to environmental emergencies that aggravate the crisis of vulnerable groups, families, companies (floods, natural catastrophes, fires, deforestation).
+- ```ID 13 Reactivation and innovation```: Civic and business initiatives and innovations that respond to civic needs in the new normal, generation of new jobs and opportunities.
+- ```ID 14 Fake news```: Dissemination of false health or political information, manipulating public opinion to induce panic, chaos or discriminate against minorities.
 
 
 ## More info
