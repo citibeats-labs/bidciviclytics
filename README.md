@@ -1,30 +1,23 @@
-# COVID19 BID Data
+#  BID CivicLytics data
 
-On March 25th, 2020, as a response to COVID-19 emergency,  [Citibeats](https://citibeats.net/), alongside with the [Inter-American Development Bank (IADB, or BID in Spanish)](https://www.iadb.org/), published an observatory to listen and help better understand the needs of people in Latin America and the Caribbean based on Twitter data:
+On March 25th, 2020, amidst the COVID-19 emergency, [Citibeats](https://citibeats.com/), alongside with the [Inter-American Development Bank (IADB, or BID in Spanish)](https://www.iadb.org/), published an observatory to listen and help better understand the needs of people in Latin America and the Caribbean based on Twitter data:
 
-- [COVID-19 Observatory](https://covid19-civiclytics.citibeats.com/)
+- [BID CivicLytics Observatory](https://bidciviclytics.citibeats.com/)
 
 
-The observatory has been created using [Citibeats](https://citibeats.net/)’s proprietary AI, which uses ML and NLP to detect changes in the needs of people in Latin America and the Caribbean.
+The observatory has been created using [Citibeats](https://citibeats.com/)’s proprietary AI, which uses ML and NLP to detect changes in the needs of people in Latin America and the Caribbean.
 
-As COVID-19 is a worldwide emergency, IADB & Citibeats have decided to release the aggregated results used for the observatory, and make it available through this repository.
+IADB & Citibeats have decided to release the aggregated results used for the observatory, and make it available through this repository.
+Since the civic situation is constantly evolving and social needs are wide-ranging, there is a need for real-time data to serve the decisions of key actors. At the same time, this data must be treated carefully, as the data query and categories are subject to change along with the conversation. This repository will be kept up-to-date with revised data, and changes noted here. Note that, as new sources are added to the system, records from earlier dates could change.
+The goal of this repository is to enable everyone to integrate the data into their own research, or build their own solutions on top of this data. If you have any feedback on how to improve our analysis, please write an email to: labs@citibeats.com
 
-The data has been obtained and analyzed with the utmost urgency to inspire civic actions and inform the decisions of key actors, and must, therefore, be treated carefully. Since the current situation may change rapidly and in unexpected ways, more data will become available as events develop, which can lead to alternative (even contradictory) analyses. This repository will be kept up-to-date with revised data while the crisis persists. Note that, as new sources are added to the system, records from earlier dates could change.
-
-The goal of this repository is to enable everyone to integrate the data into their own research, or build their own solutions on top of this data. If you have any feedback on how to improve our analysis, please write an email to: labs@citibeats.net
 
 
 ## Origin of the data
 
-The data has been obtained from public tweets related to COVID-19 using the Twitter API. The tweets include the words *COVID-19*, *coronavirus*  or other terms that are closely related to them.
+The data has been obtained from public posts related to civic topics, using the Twitter API and data aggregators of public sources such as forums, message boards, blogs and comments in news. Please keep in mind that this is only a sample of all civic discussion.
 
-The data has been limited to people that explicitly indicate their geolocation in their profiles, so their opinions and needs can be placed and compared among regions. It is important to bear in mind that not all users are equally likely to specify their location, whether for privacy, computer literacy, or some other reason. This can skew the collected data towards specific segments, which must, therefore, be interpreted accordingly.
-
-The data is constantly updated with new tweets.
-
-Citibeats is actively looking for other text-based sources so they can be added to the analysis, in order to increase the reach and representativity. If you have data relevant for the observatory that you'd like to share with Citibeats, please fill out this form (Spanish):
-
-- [Añadir fuentes al Observatorio Ciudadano COVID-19 del Grupo BID](https://go474190.typeform.com/to/YRNlNe)
+The data is updated each day with new posts.
 
 _NOTE: all data is subject to quality, technical, and ethical requirements before being added to the system._
 
@@ -33,18 +26,16 @@ _NOTE: all data is subject to quality, technical, and ethical requirements befor
 
 Every analysis based on Internet data has to deal with representativity. Not everyone is connected to the Internet, and not everyone shares their opinion.
 
-The Internet penetration of the countries present in the data varies between 55% and 93%. Additionally, the following biases must be taken into account:
+The Internet penetration of the countries present in the data varies between 55% and 93%. Additionally, the following biases must be taken into account. These depend on the exact sources; examples are given below:
 1. Gender: Twitter usage varies 4-17% between population, and the users registered online are usually twice men than women.
 2. Age: both ends of the strip are less represented, and the majority is concentrated in the 30 - 50 age group.
 3. Social: people with fewer resources may not be properly represented.
-
-
 
 CSV columns:
 - ```id```: code of the country as defined by [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements)
 - ```date```: day in which the raw data was published in YYYY-MM-DD format (UTC timezone)
 - ```name```: name of the country in Spanish
-- ```docs-N```: number of documents for the category N on a given day.
+- ```docs-N```: number of documents for the category N on a given day
 - ```docs-delta-percent-N```: variation of documents (%) for the category N respect the previous day
 - ```docs-percent-N```: percent of documents in the category N respect all the other categories in that day
 
@@ -73,4 +64,4 @@ Categories:
 
 ## Contact & Feedback
 
-labs@citibeats.net
+labs@citibeats.com
