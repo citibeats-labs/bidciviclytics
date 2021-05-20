@@ -32,12 +32,16 @@ The Internet penetration of the countries present in the data varies between 55%
 3. Social: people with fewer resources may not be properly represented.
 
 CSV columns:
-- ```id```: code of the country as defined by [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements)
-- ```date```: day in which the raw data was published in YYYY-MM-DD format (UTC timezone)
-- ```name```: name of the country in Spanish
-- ```docs-N```: number of documents for the category N on a given day
-- ```docs-delta-percent-N```: variation of documents (%) for the category N respect the previous day
-- ```docs-percent-N```: percent of documents in the category N respect all the other categories in that day
+- `id`: code of the country as defined by [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements)
+- `date`: day in which the raw data was published in YYYY-MM-DD format (UTC timezone)
+- `name`: name of the country in Spanish
+- `docs-N`: number of documents for the category N on a given day
+- `docs-delta-percent-N`: variation of documents (%) for the category N respect the previous day
+- `docs-percent-N`: percent of documents in the category N respect all the other categories in that day
+- `docs-female-N`: number of documents for the category N on a given day, which are estimated to be from females
+- `docs-male-N`: number of documents for the category N on a given day, which are estimated to be from males
+- `docs-questions-N`: number of documents for the category N on a given day, which were questions
+- `docs-complaints-N`: number of documents for the category N on a given day, which were complaints
 
 NOTE: each row in the CSV corresponds to one day of data for a specific country.
 
