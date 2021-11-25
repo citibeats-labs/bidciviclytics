@@ -46,20 +46,41 @@ CSV columns:
 NOTE: each row in the CSV corresponds to one day of data for a specific country.
 
 Categories:
-- ```ID 01 Governance```: Citizen reactions, doubts and criticisms of the measures to contain the pandemic and the reactivation of the economy. It reflects the responsibility of institutions to implement them and anticipate exit opportunities from the crisis.
-- ```ID 02 Food Safety```: Perceptions regarding the risk of shortages of food and basic supplies (water, energy), as well as the risk of famine as a result of the loss of income among the most vulnerable.
-- ```ID 03 Household economies```: Monitoring the impact of the crisis on the domestic economy, reflecting the risk of poverty for those most affected. It includes testimonials from employees, unemployed, self-employed and citizens. It also shows the perception of the gender gap in the workplace.
-- ```ID 04 Markets and SMEs```: Requests for economic and fiscal policy based on the perception of the impact of the crisis on the markets, reactivation of SMEs and larger companies.
-- ```ID 05 Health system```: Perception of the capacity of the health system (including personnel, health infrastructure and authorities), to face the pandemic. Includes comments on the lack of medical supplies and access to treatments and vaccines.
-- ```ID 06 Citizen security and risk```: Effectiveness of protocols by spaces, companies and groups to avoid contagion. Citizen security in urban displacements in the "new normal".
-- ```ID 07 Consumption options```: Consumption habits, limits and changes: non-basic goods, mobility, tourism and leisure in the new normal.
-- ```ID 08 Employment and inequality```: Perceptions about the future of work: digitization of companies, consolidation of teleworking and barriers to it. In addition, it measures labor problems such as unemployment, irregularity, precariousness and gender inequality at work and new opportunities.
-- ```ID 09 Access to education```: Impact of the crisis on education, from childhood to university, as well as the loss of educational level due to the digital divide and isolation, especially among rural populations and women.
-- ```ID 10 Mental health```: Cases and concerns about changes in mental health due to the crisis, uncertainty and future prospects. Attention to differences in impact by gender.
-- ```ID 11 Vulnerable groups```: Groups or individuals in vulnerable situations; obstacles to their economic and social reintegration: women, immigrants, groups of indigenous peoples, Afro-descendants.
-- ```ID 12 Climate change impact```: Impact of the economic decline and displacement due to environmental emergencies that aggravate the crisis of vulnerable groups, families, companies (floods, natural catastrophes, fires, deforestation).
-- ```ID 13 Reactivation and innovation```: Civic and business initiatives and innovations that respond to civic needs in the new normal, generation of new jobs and opportunities.
-- ```ID 14 Fake news```: Dissemination of false health or political information, manipulating public opinion to induce panic, chaos or discriminate against minorities.
+- ```ID 01 Agriculture and rural development```: Emerging problems and solutions in agriculture, agricultural technology and its products. It includes different agricultural sectors and points in the agricultural production chain.
+
+- ```ID 02 Education```: Cases and concerns related to the educational world, including different educational stages and modalities, as well as tools, resources and emerging challenges in the field of education.
+
+- ```ID 03 Energy```: Trends, applications and technological development derived from energy innovation, specifically in renewable sources. Challenges, doubts and criticisms related to energy, including access, natural resources and employment.
+
+- ```ID 04 Environment```: Concerns and risk perception about climate change and environmental preservation. This includes requests and criticisms of environmental policies, views on sustainable development and economic, technological and social solutions to reduce the carbon footprint.
+
+- ```ID 05 Access to credit```: Impact of the crisis on access to credit, including concerns and risks when making financial transactions such as requesting microcredits. Public perception of banking transparency, scholarships and grants, and also financial inclusion.
+
+- ```ID 06 Health```: Updates and concerns about health and the health system, including specific information about health centers and resources. It also includes information on vaccines, without a special focus on COVID-19.
+
+- ```ID 07 Employment and entrepreneurship```: Impact of the crisis on employment, perceptions about unemployment. It also includes the latest trends on entrepreneurship, business development and private companies.
+
+- ```ID 08 Social investment```: Social policy requests, citizen participation processes for the democratization of different social realities. It also includes updates on citizen creativity and culture.
+
+- ```ID 09 Sustainable tourism```: Opportunities and needs related to sustainable tourism. It also includes updates on artisan work.
+
+- ```ID 10 Trade```: Trends on trade development and the impact of the crisis on the production chain, exports and imports. Includes the different forms of foreign investment.
+
+- ```ID 11 Infrastructure```: Reactions and requests on infrastructure, mobility and transportation. This includes roads, airports and ports. Identification of areas with coverage or connectivity problems.
+
+- ```ID 12 Urban development and housing```: Concerns and trends on urban development, including historical heritage and associated environmental impact. Reflects the impact of the crisis on urban housing and neighborhoods.
+
+- ```ID 13 Water and sanitation```: Perceptions of water quality, including sanitation infrastructure. Problems related to supply and access to piped water, satisfaction with infrastructures, supply basins. Information on the impact of flooding.
+
+- ```ID 14 Perception of cost of living```: Perception of impoverishment and loss of purchasing power. Problems and concerns about quality of life and its cost, inflation and lack of economic resources.
+
+- ```ID 15 Migrations```: Needs expressed by the migrant population, individuals who are in displacement or by citizens in general, related to the migratory phenomenon. Includes border tensions and updates on regularization of papers.
+
+- ```ID 16 Food security```: Cases and concerns associated with food security, including food shortages and famine.
+
+- ```ID 17 Citizen security```: Citizen perceptions of security and justice, including altercations with police and criminals.
+
+- ```ID 18 Governance```: Allows to detect sectors in which citizens consider institutions distant (lack of access to digital government) and the needs for public policies.
 
 
 ## More info
